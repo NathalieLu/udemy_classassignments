@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Simple Form</title>
+</head>
+<body>
+
+<!-- Play with input -->
+
+  <h1>Play With Input</h1>
+
+  <input type="text">
+  <input type="color">
+  <input type="radio">
+  <input type="password">
+
+<!-- a simple form -->
+  <h1>Sign In</h1>
+
+<!-- action - where the form send data to -->
+<!-- method - what HTTP method (get/post) -->
+
+  <form>
+    <label for="">Username:
+      <input name="username" type="text" placeholder="username">
+    </label>
+    <label for="">Password:
+      <input name="password" type="password" placeholder="password">
+    </label>
+
+    <input type="submit">
+  </form>
+
+  <!-- a simple form using Alternate syntax to connect label and input to make them relevent to each other -->
+  <h1>Sign In (Alternate syntax)</h1>
+  <form>
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text" placeholder="username">
+
+    <label for="">Password:</label>
+    <input id="password" name="password" type="password" placeholder="password">
+
+    <input type="submit">
+  </form>
+
+    <!-- a simple form with simple validation -->
+  <h1>Sign In (with simple validation)</h1>
+
+<!-- required attribute - to make sure the input is filled out -->
+<!-- email - only change type = email will do the job -->
+  <form>
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email" placeholder="email" required>
+
+    <label for="">Password:</label>
+    <input id="password" name="password" type="password" placeholder="password" required>
+
+    <input type="submit">
+  </form>
+
+  <!-- a simple form with simple validation -->
+  <h1>More Input Type</h1>
+
+  <p>Do you prefer cats or dogs?</p>
+
+<!-- by giving input the name attribute to tell html that the two radio input is a single choice. -->
+<!-- by giving input a value attribute to tell html which value is selected. -->
+<!-- name=value -->
+
+  <form action="">
+    <label for="dogs">Dogs:</label>
+    <input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+    <label for="cats">cats</label>
+    <input name="petChoice" id="cats" type="radio" value="CATS">
+
+    <p>What's your current mood?</p>
+    <select name="Mood" id="">
+      <!-- don't send the text or symbol inside option tags, give it a value to store. -->
+      <option value="happy">:)</option>
+      <option value="neutral">:|</option>
+      <option value="sad">:(</option>
+    </select>
+
+    <p>Type in a paragraph instead of a single line.</p>
+    <label for="comment"></label>
+    <textarea id="comment" name="comment" cols="50" rows="20"></textarea>
+
+    <button>Go!</button> 
+    <!-- if the button is at the end of a form, it will become a submit button. Not recommanded. -->
+  </form>
+
+</body>
+</html>
