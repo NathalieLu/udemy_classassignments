@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Exercise</title>
+</head>
+<body>
+  
+  <h1>Register</h1>
+  
+  <form>
+    <!-- First Name and Last Name -->
+    <div>
+      <label for="firstname">First Name:</label>
+      <input id="firstname" name="FirstName" type="text" placeholder="Nathalie" required>
+
+      <label for="lastname">Last Name:</label>
+      <input id="lastname" name="LastName" type="text" placeholder="Lu" required>
+    </div>
+    <!-- Gender -->
+    <div>
+      <label for="male">Male</label>
+      <input id="male" name="Gender" type="radio" value="MALE">
+      <label for="female">Female</label>
+      <input id="female" name="Gender" type="radio" value="FEMALE">
+      <label for="other">Other</label>
+      <input id="other" name="Gender" type="radio" value="FEMALE">
+    </div>
+    <!-- Email and Password -->
+    <!-- another way to nesting without syntax -->
+    <div>
+      <label>Email:
+        <input type="email" name="Email" placeholder="Your Email" required>
+      </label>
+      <label>Password:
+        <input name="Password" type="password" placeholder="Your Password" minlength="5" maxlength="10" required>
+      </label>
+      <label>Password:
+        <input name="Password" type="password" placeholder="Your Password" pattern=".{5,10}" required title="5 to 10 characters">
+      </label>
+    </div>
+    <!-- Birthday with three dropdown -->
+    <!-- Error: The lable element may contain at most one select descendant.  -->
+    <div>
+      <label>Birthday:
+        <select name="Month">
+          <option>Month</option>
+          <option>Jan</option>
+          <option>Feb</option>
+          <option>March</option>
+        </select>
+        <select name="Day">
+          <option>Day</option>
+          <option>1</option>
+          <option>15</option>
+          <option>30</option>
+        </select>
+        <select name="Year">
+          <option>Year</option>
+          <option>1990</option>
+          <option>1991</option>
+          <option>1992</option>
+        </select>
+      </label>
+    </div>
+    <div>
+      <label for="termsAgreement">I agreed to the terms and conditions</label>
+      <input id="termsAgreement" type="checkbox" name="terms_of_condition" value="Agreed">
+    </div>
+    <input type="submit">
+  </form>
+
+  <!-- Result = FirstName=Nathalie&LastName=Lu&Gender=FEMALE&Email=nathalie%40com&Password=12345&Password=123456&Month=Feb&Day=15&Year=1990&terms_of_condition=Agreed -->
+
+</body>
+</html>
