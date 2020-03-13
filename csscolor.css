@@ -1,0 +1,51 @@
+body {
+  background-color: pink;
+  /* background: url(https://images-na.ssl-images-amazon.com/images/I/61zo9zcvJAL._SY355_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+/* The background is not big enough so it's being tiled */
+
+/* Hexadecimal */
+
+h1 {
+  color: #000000;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: #FF0000; */
+  border: 5px solid purple;
+}
+
+h2 {
+  color: #FF0000;
+  border: 5px dotted #ffffff;
+}
+
+h3 {
+  color: #00FF00;
+  border: 5px double #ffffff;
+}
+
+/* RGB */
+
+h4 {
+  color: rgb(161, 104, 19);
+  background-color: rgb(100,0,100);
+}
+
+h5 {
+  color: rgb(100,0,100);
+  border: 5px dashed #ffffff;
+}
+
+h6 {
+  color: rgb(11, 99, 150);
+}
+
+/* RGBA - Make the color transparent */
+/* A stands for alpha */
+
+p {
+  color: rgba(0, 100, 0, 0.3)
+}
