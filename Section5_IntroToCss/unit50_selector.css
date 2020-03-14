@@ -1,0 +1,78 @@
+/* The 30 CSS Selectors you MUST Memorize */
+/* Colt raised 8 kinds of them, try more selector after class. */
+
+/* Element */
+
+li {
+
+}
+
+/* Class */
+.hello {
+
+}
+
+/* id  */
+#name {
+
+}
+
+/* Star */
+
+* {
+  border: 1px solid lightgrey;
+}
+
+/* Descendant selector */
+
+/* E.g. Select only the <a> which are inside the <li>. Without influencing the <a> which is existed independently or under other element. */
+
+li a {
+  color: #036550;
+}
+
+li .hello {
+
+}
+
+/* Adjacent Selector */
+/* select an element which comes after the other one.  */
+/* Note: not as a child, but a sibling */
+
+h4 + ul {
+  border: 4px solid red;
+}
+
+/* Attribute Selector */
+/* select an attribute meet exactly the same as we designated.*/
+
+a[href="https://google.com"] {
+  background-color: #033649;
+  color: white;
+}
+
+input[type="checkbox"] {
+
+}
+
+/* nth of type  */
+/* Select only the nth element to become the style. */
+
+/* e.g. select the third element to make its background color to be peru. */
+
+ul:nth-of-type(3) {
+  background-color: peru;
+}
+
+/* e.g. select every third li to make its background color to be pink. */
+
+li:nth-of-type(3) {
+  background-color: pink;
+}
+
+/* the number can be even / odd */
+
+li:nth-of-type(even) {
+  background-color: yellowgreen;
+}
+

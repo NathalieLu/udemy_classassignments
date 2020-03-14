@@ -1,0 +1,27 @@
+/* Element Selector */
+
+body {
+  background-color: #036550;
+  color: #ffffff;
+}
+
+/* turn all li element with border */
+
+li {
+  border: 1px solid #033649;
+}
+
+/* ID Selector */
+/* Select an element with a given ID. Only one perpage */
+/* a ID can only appeared on the page one time. */
+
+#special {
+  background-color: #031643;
+}
+
+/* Class Selector */
+/* select multiple element with given class. Can be applied to multiple element at once.  */
+
+.completed {
+  text-decoration: line-through;
+}

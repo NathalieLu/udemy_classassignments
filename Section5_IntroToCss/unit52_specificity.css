@@ -1,0 +1,79 @@
+/* ul{
+  color:purple;
+} */
+
+* {
+  color:blue;
+}
+
+/* it depends on which control item is more specific. */
+
+/* id widnws over the class  */
+
+#special {
+  color: black;
+}
+
+/* class winds over the element tag. */
+
+.highlight {
+  color: yellow;
+}
+
+/* The style which is closer to the element, then wins. */
+p {
+  color: green;
+}
+
+/* inherit: Select parent, then change the color of children's too. */
+body {
+  color:red;
+}
+
+/* ---------------------------------------- */
+
+
+    /* Type Selectors */
+
+    li {
+
+    }
+
+      /* descendant selector */
+      li a {
+
+      }
+
+        /* adjacent selector */
+        li + a{
+
+        }
+
+        /* nth of type selector*/
+        li:nth-of-type(3) {
+          
+        }
+
+    /* Class, Attribute, and Pseudo-Class selectors */
+
+    .hello {
+
+    }
+
+    input[type="text"] {
+
+    } 
+
+    a:hover {
+
+    }
+
+    input:checked {
+      
+    }
+
+    /* ID selectors */
+
+    #idname {
+
+    }
