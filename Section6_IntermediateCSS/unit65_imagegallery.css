@@ -1,0 +1,30 @@
+/* div {
+  width: 100px;
+  float: left;
+}
+
+#one {
+  background: red;
+}
+
+#two {
+  background: purple;
+} */
+
+h1 {
+  font-family: 'raleway';
+  font-size: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-left: 1.66%;
+  border-bottom: 2px solid #f1f1f1 ;
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+img {
+  width: 30%;
+  float: left;
+  /* doing the math, 100% - (30%*3) = 10%, 10% / 6 = 1.66% */
+  margin: 1.66%;
+}

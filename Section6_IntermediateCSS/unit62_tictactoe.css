@@ -1,0 +1,46 @@
+
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      margin: 0 auto;
+    }
+
+    td {
+      width: 100px;
+      height: 100px;
+    }
+
+/* My Solution */
+
+    /* tr:nth-of-type(2) td {
+      border-style: solid;
+      border-color: black;
+      border-width: 1px 0px;
+    }
+
+    tr td:nth-of-type(2) {
+      border-style: solid;
+      border-color: black;
+      border-width: 0px 1px;
+    }
+
+    #middlebox {
+      border-style: solid;
+      border-color: black;
+      border-width: 1px 1px;
+    } */
+
+
+/* Teacher's solution */
+
+    .vertical {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+
+    .horizontal {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }

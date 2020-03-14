@@ -1,0 +1,66 @@
+/* font-family */
+
+h1 {
+  font-family: 'Indie Flower';
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+/* font-size - inherit from their parent */
+
+body {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+p {
+  font-size: 2em;
+}
+
+span {
+  font-size: 2em;
+}
+
+/* font-weight */
+
+/* p {
+  font-weight: bold;
+} */
+
+/* 100 to 800 (every hundred)*/
+p {
+  font-weight: 800;
+}
+
+/* line-height */
+/* xx times of the font size */
+
+p {
+  line-height: 1.5;
+}
+
+/* text-align */
+
+h1 {
+  text-align: right;
+}
+
+p {
+  text-align: center;
+}
+
+/* text-decoreation */
+
+p {
+  text-decoration: underline;
+}
+
+h1 {
+  text-decoration: line-through;
+}
+
