@@ -111,6 +111,12 @@ h2 {
 }
 
 
+.navbar.scrolled {
+  background: rgba(117, 101, 86, 0.5);
+  transition: background 400ms;
+}
+
+
 /* Change order */
 
 @media (min-width:992px) {
